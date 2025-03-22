@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+</head>
+<body> 
+    <div style="text-align: center;">
+        <a href="../inicio.html"> Inicio </a>
+        <a href="productos.html"> Productos </a>
+        <a href="nosotros.html"> Nosotros </a>
+    </div>
+    <div style="text-align: center;">
+        <h1>Contactanos</h1>
+        <p>Atendemos de lunes a viernes de 8am a 10pm</p>
+        <img src="../imagenes/contacto.jpg" width="30%">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63451.32575322376!2d-75.58631389770161!3d6.302063448159417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44285ec7275081%3A0xc9efd33277f6e41!2zRnJpc2J5IMOJeGl0byBOaXF1w61h!5e0!3m2!1ses!2sco!4v1742048029319!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div style="text-align: center;">
+        <h1>Formulario de contacto</h1>
+        <form method="get">
+            <label>Ingresa tu nombre:</label>
+            <input name="nombre" required type="text" placeholder="Escribir en Mayusculas"> <br>
+            <label>Edad:</label>
+            <input name="edad" type="number" min="18" max="50"> <br>
+            <label>Telefono o Celular:</label>
+            <input name="telefono" type="tel"> <br>
+            <label>Correo Eletronico:</label>
+            <input name="correo" type="email" required> <br>
+            <label>Fecha Nacimiento:</label>
+            <input name="Fecha" type="date" min="1950-01-01" max="2006-12-31"> <br>
+            
+            <label>Selecciona tu Genero:</label> <br>
+            <input type="radio" name="Genero" value="Hombre">Hombre
+            <input type="radio" name="Genero" value="Mujer">Mujer
+            <input type="radio" name="Genero" value="Otro">Otro
+            <input type="radio" name="Genero" value="No-sabe">No sabe / no responde <br>
+
+            <label>Seleciona medio de contacto:</label> <br>
+            <input type="checkbox" name="medio" value="telefono">Telefono
+            <input type="checkbox" name="medio" value="correo">Correo
+            <input type="checkbox" name="medio" value="Paloma">Paloma mensajera
+            <input type="checkbox" name="medio" value="humo">Señales de Humo <br>
+
+            <label>Seleciona un almuerzo:</label> <br>
+            <select name="almuerzo">
+                <option value="">Seleccionar</option>
+                <option value="Sancocho">Sancocho</option>
+                <option value="Bandeja">Bandeja Paisa</option>
+                <option value="Ajiaco">Ajiaco</option>
+            </select> <br>
+            <label>Observacion:</label> <br>
+            <textarea name="Observacion" rows="3" cols="5"></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            <br><br><br><br><br><br><br>
+        </form>
+    </div>
+</body>
+</html>
